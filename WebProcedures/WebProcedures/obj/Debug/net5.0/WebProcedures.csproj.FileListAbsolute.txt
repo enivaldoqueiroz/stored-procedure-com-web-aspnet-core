@@ -147,3 +147,4 @@ D:\C-CHARP DOTNET\stored-procedure-com-web-aspnet-core\WebProcedures\WebProcedur
 D:\C-CHARP DOTNET\stored-procedure-com-web-aspnet-core\WebProcedures\WebProcedures\obj\Debug\net5.0\Razor\Views\Produto\Details.cshtml.g.cs
 D:\C-CHARP DOTNET\stored-procedure-com-web-aspnet-core\WebProcedures\WebProcedures\obj\Debug\net5.0\Razor\Views\Produto\Edit.cshtml.g.cs
 D:\C-CHARP DOTNET\stored-procedure-com-web-aspnet-core\WebProcedures\WebProcedures\obj\Debug\net5.0\Razor\Views\Produto\Index.cshtml.g.cs
+D:\C-CHARP DOTNET\stored-procedure-com-web-aspnet-core\WebProcedures\WebProcedures\obj\Debug\net5.0\WebProcedures.csproj.AssemblyReference.cache

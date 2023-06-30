@@ -1,0 +1,66 @@
+﻿USE WEB_PROCEDURE
+GO
+
+CREATE PROCEDURE Cadastro(
+	@nome VARCHAR(255)
+)
+AS
+BEGIN
+	INSERT INTO Produto 
+	VALUES(
+		@nome
+	)
+END
+GO
+
+
+USE WEB_PROCEDURE
+GO
+
+CREATE PROCEDURE UpdateProduto(
+	@id INT,
+	@nome VARCHAR(255)
+)
+AS
+BEGIN
+	UPDATE Produto
+	SET Nome = @nome
+	WHERE 
+		Id = @id
+END
+GO
+
+USE WEB_PROCEDURE
+GO
+
+CREATE PROCEDURE GetProdutoById(
+	@id INT
+)
+AS
+BEGIN
+	SELECT * FROM Produto
+	WHERE Id = @id
+END
+GO
+
+USE WEB_PROCEDURE
+GO
+
+CREATE PROCEDURE GetProdutos
+AS
+BEGIN
+	SELECT * FROM Produto	
+END
+GO
+
+USE WEB_PROCEDURE
+GO
+
+CREATE PROCEDURE DeletarProduto
+	@id INT
+AS
+BEGIN
+	DELETE FROM PRODUTO
+	WHERE Id = @id
+END
+GO
